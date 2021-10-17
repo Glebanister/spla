@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['dependency_104',['Dependency',['../classspla_1_1Expression.html#a65177dd4abd3f1a559f973cc235cdfb4',1,'spla::Expression']]]
+  ['bool_227',['Bool',['../classspla_1_1Types.html#a65ceca897e4a771dcf424c5d7946f356',1,'spla::Types']]]
 ];

@@ -61,13 +61,14 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><b>spla</b></li><li class="navelem"><a class="el" href="classspla_1_1Library.html">Library</a></li><li class="navelem"><a class="el" href="classspla_1_1Library_1_1Config.html">Config</a></li>  </ul>
+<li class="navelem"><a class="el" href="namespacespla.html">spla</a></li><li class="navelem"><a class="el" href="classspla_1_1Library.html">Library</a></li><li class="navelem"><a class="el" href="classspla_1_1Library_1_1Config.html">Config</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
   <div class="summary">
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="classspla_1_1Library_1_1Config-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">spla::Library::Config Class Reference</div>  </div>
@@ -78,9 +79,9 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:ae9c06614083b2661687a75a60e226a2e"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classspla_1_1Library_1_1Config.html#ae9c06614083b2661687a75a60e226a2e">DeviceType</a> { <b>GPU</b>
-, <b>CPU</b>
-, <b>Accelerator</b>
+<tr class="memitem:ae9c06614083b2661687a75a60e226a2e"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classspla_1_1Library_1_1Config.html#ae9c06614083b2661687a75a60e226a2e">DeviceType</a> { <a class="el" href="classspla_1_1Library_1_1Config.html#ae9c06614083b2661687a75a60e226a2ea7a115b50f4ec73a21643e47cd37a5f81">GPU</a>
+, <a class="el" href="classspla_1_1Library_1_1Config.html#ae9c06614083b2661687a75a60e226a2ea2c2d36c78ed36d7abc6f070f04b7a261">CPU</a>
+, <a class="el" href="classspla_1_1Library_1_1Config.html#ae9c06614083b2661687a75a60e226a2ea74b089e262d13d95a6731b3b47379e3c">Accelerator</a>
  }</td></tr>
 <tr class="separator:ae9c06614083b2661687a75a60e226a2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -96,9 +97,21 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a747d31dc9af6a726f3cc3637409cacf1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2078856cd6a3a8e6ae8988347d848aa9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classspla_1_1Library_1_1Config.html">Config</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classspla_1_1Library_1_1Config.html#a2078856cd6a3a8e6ae8988347d848aa9">RemoveAmountLimit</a> ()</td></tr>
 <tr class="separator:a2078856cd6a3a8e6ae8988347d848aa9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af9fe8713541e425fee45b9afd6faa7eb"><td class="memItemLeft" align="right" valign="top"><a id="af9fe8713541e425fee45b9afd6faa7eb"></a>
-std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>GetDevicesNames</b> () const</td></tr>
+<tr class="memitem:a96f01b0da8d48aed00b0209feba0321c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classspla_1_1Library_1_1Config.html">Config</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classspla_1_1Library_1_1Config.html#a96f01b0da8d48aed00b0209feba0321c">SetLogFilename</a> (Filename filename)</td></tr>
+<tr class="separator:a96f01b0da8d48aed00b0209feba0321c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a24c79b99404014800313ec6adf7937a8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classspla_1_1Library_1_1Config.html">Config</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classspla_1_1Library_1_1Config.html#a24c79b99404014800313ec6adf7937a8">SetBlockSize</a> (size_t blockSize)</td></tr>
+<tr class="separator:a24c79b99404014800313ec6adf7937a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af9fe8713541e425fee45b9afd6faa7eb"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classspla_1_1Library_1_1Config.html#af9fe8713541e425fee45b9afd6faa7eb">GetDevicesNames</a> () const</td></tr>
 <tr class="separator:af9fe8713541e425fee45b9afd6faa7eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2d143ce4d324af4326141dbe102e4ae5"><td class="memItemLeft" align="right" valign="top">const std::optional&lt; Filename &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classspla_1_1Library_1_1Config.html#a2d143ce4d324af4326141dbe102e4ae5">GetLogFilename</a> () const</td></tr>
+<tr class="separator:a2d143ce4d324af4326141dbe102e4ae5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aad2582cdf1f29fe827f7b58a2daefaa1"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classspla_1_1Library_1_1Config.html#aad2582cdf1f29fe827f7b58a2daefaa1">GetBlockSize</a> () const</td></tr>
+<tr class="separator:aad2582cdf1f29fe827f7b58a2daefaa1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
+Static Public Attributes</h2></td></tr>
+<tr class="memitem:a4d40fe4daa2526da47c57e6e17fae47b"><td class="memItemLeft" align="right" valign="top">static const size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classspla_1_1Library_1_1Config.html#a4d40fe4daa2526da47c57e6e17fae47b">DEFAULT_BLOCK_SIZE</a> = 1000000</td></tr>
+<tr class="separator:a4d40fe4daa2526da47c57e6e17fae47b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Represents system configuration used in all computations. <code><a class="el" href="classspla_1_1Library_1_1Config.html">Config</a></code> initializes OpenCL context, which includes all specified devices. </p>
@@ -115,6 +128,11 @@ std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bott
       </table>
 </div><div class="memdoc">
 <p><a class="el" href="classspla_1_1Type.html">Type</a> of OpenCL device. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ae9c06614083b2661687a75a60e226a2ea7a115b50f4ec73a21643e47cd37a5f81"></a>GPU&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae9c06614083b2661687a75a60e226a2ea2c2d36c78ed36d7abc6f070f04b7a261"></a>CPU&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae9c06614083b2661687a75a60e226a2ea74b089e262d13d95a6731b3b47379e3c"></a>Accelerator&#160;</td><td class="fielddoc"></td></tr>
+</table>
 
 </div>
 </div>
@@ -146,6 +164,60 @@ std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bott
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="aad2582cdf1f29fe827f7b58a2daefaa1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aad2582cdf1f29fe827f7b58a2daefaa1">&#9670;&nbsp;</a></span>GetBlockSize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">size_t spla::Library::Config::GetBlockSize </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Returns</dt><dd>Block size </dd></dl>
+
+</div>
+</div>
+<a id="af9fe8713541e425fee45b9afd6faa7eb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af9fe8713541e425fee45b9afd6faa7eb">&#9670;&nbsp;</a></span>GetDevicesNames()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;std::string&gt; spla::Library::Config::GetDevicesNames </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Returns</dt><dd>List of available devices for specified config settings </dd></dl>
+
+</div>
+</div>
+<a id="a2d143ce4d324af4326141dbe102e4ae5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2d143ce4d324af4326141dbe102e4ae5">&#9670;&nbsp;</a></span>GetLogFilename()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const std::optional&lt;Filename&gt;&amp; spla::Library::Config::GetLogFilename </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Returns</dt><dd>Log filename </dd></dl>
+
+</div>
+</div>
 <a id="a747d31dc9af6a726f3cc3637409cacf1"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a747d31dc9af6a726f3cc3637409cacf1">&#9670;&nbsp;</a></span>LimitAmount()</h2>
 
@@ -185,7 +257,38 @@ std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bott
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Removes any limit on devices amount. Hence, all avaiable devices will be used. </p>
+<p>Removes any limit on devices amount. Hence, all available devices will be used. </p>
+
+</div>
+</div>
+<a id="a24c79b99404014800313ec6adf7937a8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a24c79b99404014800313ec6adf7937a8">&#9670;&nbsp;</a></span>SetBlockSize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classspla_1_1Library_1_1Config.html">Config</a>&amp; spla::Library::Config::SetBlockSize </td>
+          <td>(</td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>blockSize</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Set matrix/vector block size param.</p>
+<p>This param used to split primitives data:</p><ul>
+<li>matrix data in equally sized blocks of size <code>blockSize</code> x <code>blockSize</code></li>
+<li>vector data in equally sized blocks of size <code>blockSize</code> x 1 Edge blocks has clamped size.</li>
+</ul>
+<p>This param defines granularity of the data processing, since each block processing can be submitted to the separate gpu/queue as a stand alone task.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">blockSize</td><td>Size of the matrix/vector block; must be greater then zero </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>This config </dd></dl>
 
 </div>
 </div>
@@ -214,6 +317,35 @@ std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bott
 
 </div>
 </div>
+<a id="a96f01b0da8d48aed00b0209feba0321c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a96f01b0da8d48aed00b0209feba0321c">&#9670;&nbsp;</a></span>SetLogFilename()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classspla_1_1Library_1_1Config.html">Config</a>&amp; spla::Library::Config::SetLogFilename </td>
+          <td>(</td>
+          <td class="paramtype">Filename&#160;</td>
+          <td class="paramname"><em>filename</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Set log file name, to log trace messages in debug library build.</p>
+<dl class="section note"><dt>Note</dt><dd>Use utf-16 encoded wstring on windows platform to specify log file name. </dd>
+<dd>
+Use utf-8 encoded string on windows platform to specify log file name.</dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">filename</td><td>Log file name </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>This config </dd></dl>
+
+</div>
+</div>
 <a id="a081d751b684cc556ac160bf2c1009322"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a081d751b684cc556ac160bf2c1009322">&#9670;&nbsp;</a></span>SetPlatform()</h2>
 
@@ -236,6 +368,30 @@ std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bott
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a4d40fe4daa2526da47c57e6e17fae47b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4d40fe4daa2526da47c57e6e17fae47b">&#9670;&nbsp;</a></span>DEFAULT_BLOCK_SIZE</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const size_t spla::Library::Config::DEFAULT_BLOCK_SIZE = 1000000</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Default size (nrows and ncols) for matrix/vector block size. Used to split matrix or vector into equal sized storage blocks. </p>
 
 </div>
 </div>

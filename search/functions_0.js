@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['config_103',['Config',['../classspla_1_1Library_1_1Config.html#a954fe345d6dff0d543a48019fdbd34a5',1,'spla::Library::Config']]]
+  ['addref_225',['AddRef',['../classspla_1_1RefCnt.html#a4baf8cce74f6ba7900e7d7fbe03876aa',1,'spla::RefCnt']]],
+  ['as_226',['As',['../classspla_1_1RefPtr.html#a5d38314bb037fa4890e77b69dc110931',1,'spla::RefPtr']]]
 ];
