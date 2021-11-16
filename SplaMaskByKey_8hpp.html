@@ -66,6 +66,7 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
@@ -73,15 +74,17 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;boost/compute.hpp&gt;</code><br />
+<code>#include &lt;boost/compute/detail/iterator_range_size.hpp&gt;</code><br />
 <code>#include &lt;boost/compute/iterator/zip_iterator.hpp&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for SplaMaskByKey.hpp:</div>
 <div class="dyncontent">
 <div class="center"><img src="SplaMaskByKey_8hpp__incl.png" border="0" usemap="#asources_2compute_2SplaMaskByKey_8hpp" alt=""/></div>
 <map name="asources_2compute_2SplaMaskByKey_8hpp" id="asources_2compute_2SplaMaskByKey_8hpp">
-<area shape="rect" title=" " alt="" coords="62,5,246,47"/>
+<area shape="rect" title=" " alt="" coords="149,5,333,47"/>
 <area shape="rect" title=" " alt="" coords="5,102,137,129"/>
-<area shape="rect" title=" " alt="" coords="162,95,314,136"/>
+<area shape="rect" title=" " alt="" coords="161,95,320,136"/>
+<area shape="rect" title=" " alt="" coords="345,95,497,136"/>
 </map>
 </div>
 </div><div class="textblock"><div class="dynheader">
@@ -89,44 +92,48 @@ This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
 <div class="center"><img src="SplaMaskByKey_8hpp__dep__incl.png" border="0" usemap="#asources_2compute_2SplaMaskByKey_8hppdep" alt=""/></div>
 <map name="asources_2compute_2SplaMaskByKey_8hppdep" id="asources_2compute_2SplaMaskByKey_8hppdep">
-<area shape="rect" title=" " alt="" coords="137,5,321,47"/>
-<area shape="rect" href="SplaMatrixEWiseAdd_8cpp.html" title=" " alt="" coords="5,95,216,136"/>
-<area shape="rect" href="SplaVectorEWiseAdd_8cpp.html" title=" " alt="" coords="241,95,455,136"/>
+<area shape="rect" title=" " alt="" coords="125,5,309,47"/>
+<area shape="rect" href="SplaMatrixEWiseAddCOO_8cpp.html" title=" " alt="" coords="5,95,205,136"/>
+<area shape="rect" href="SplaVectorEWiseAddCOO_8cpp.html" title=" " alt="" coords="229,95,432,136"/>
 </map>
 </div>
 </div>
 <p><a href="SplaMaskByKey_8hpp_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classspla_1_1detail_1_1BalancedPathKernel.html">spla::detail::BalancedPathKernel</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classspla_1_1detail_1_1SerialIntersectionCountKernel.html">spla::detail::SerialIntersectionCountKernel</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classspla_1_1detail_1_1SerialIntersectionKernel.html">spla::detail::SerialIntersectionKernel</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:namespacespla"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacespla.html">spla</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:namespacespla_1_1detail"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacespla_1_1detail.html">spla::detail</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:gaf3f1d2f58e52c128ff595baf61e0597c"><td class="memTemplParams" colspan="2">template&lt;class InputIterator1 , class InputIterator2 , class InputIterator3 , class OutputIterator1 , class OutputIterator2 , class Compare , class Equals &gt; </td></tr>
-<tr class="memitem:gaf3f1d2f58e52c128ff595baf61e0597c"><td class="memTemplItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__Internal.html#gaf3f1d2f58e52c128ff595baf61e0597c">spla::MaskByKey</a> (InputIterator1 maskFirst, InputIterator1 maskLast, InputIterator2 keyFirsts, InputIterator2 keyLast, InputIterator3 valueFirst, OutputIterator1 resultKeys, OutputIterator2 resultValues, Compare compare, Equals equals, boost::compute::command_queue &amp;queue)</td></tr>
-<tr class="memdesc:gaf3f1d2f58e52c128ff595baf61e0597c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mask intersection algorithm.  <a href="group__Internal.html#gaf3f1d2f58e52c128ff595baf61e0597c">More...</a><br /></td></tr>
-<tr class="separator:gaf3f1d2f58e52c128ff595baf61e0597c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga2bf766e718d9fd6a36fa8f62e3edfaf2"><td class="memTemplParams" colspan="2">template&lt;class InputIterator1 , class InputIterator2 , class InputIterator3 , class InputIterator4 , class InputIterator5 , class OutputIterator1 , class OutputIterator2 , class OutputIterator3 &gt; </td></tr>
-<tr class="memitem:ga2bf766e718d9fd6a36fa8f62e3edfaf2"><td class="memTemplItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__Internal.html#ga2bf766e718d9fd6a36fa8f62e3edfaf2">spla::MaskByPairKey</a> (InputIterator1 mask1First, InputIterator1 mask1Last, InputIterator2 mask2First, InputIterator3 key1Firsts, InputIterator3 key1Last, InputIterator4 key2Firsts, InputIterator5 valueFirst, OutputIterator1 resultKeys1, OutputIterator2 resultKeys2, OutputIterator3 resultValues, boost::compute::command_queue &amp;queue)</td></tr>
-<tr class="separator:ga2bf766e718d9fd6a36fa8f62e3edfaf2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0d4c8f9bbc5f06d9a07b60428892b3b4"><td class="memTemplParams" colspan="2">template&lt;typename InputMask , typename InputKey , typename Compare , typename Equals , typename ResizeResult , typename AssignResult &gt; </td></tr>
+<tr class="memitem:a0d4c8f9bbc5f06d9a07b60428892b3b4"><td class="memTemplItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacespla_1_1detail.html#a0d4c8f9bbc5f06d9a07b60428892b3b4">spla::detail::MaskByKey</a> (InputMask maskFirst, InputKey keyFirst, Compare compare, Equals equals, ResizeResult resizeResult, AssignResult assignResult, std::size_t maskCount, std::size_t keyCount, boost::compute::command_queue &amp;queue)</td></tr>
+<tr class="separator:a0d4c8f9bbc5f06d9a07b60428892b3b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gada1a694da9f8c13ea97619a4ea99ff65"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__Internal.html#gada1a694da9f8c13ea97619a4ea99ff65">spla::MaskKeys</a> (const boost::compute::vector&lt; unsigned int &gt; &amp;mask, const boost::compute::vector&lt; unsigned int &gt; &amp;keys, boost::compute::vector&lt; unsigned int &gt; &amp;resultKeys, boost::compute::command_queue &amp;queue)</td></tr>
+<tr class="memdesc:gada1a694da9f8c13ea97619a4ea99ff65"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mask intersection algorithm.  <a href="group__Internal.html#gada1a694da9f8c13ea97619a4ea99ff65">More...</a><br /></td></tr>
+<tr class="separator:gada1a694da9f8c13ea97619a4ea99ff65"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga3a0345fdcaa033dc2833877975283da1"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__Internal.html#ga3a0345fdcaa033dc2833877975283da1">spla::MaskByKeys</a> (const boost::compute::vector&lt; unsigned int &gt; &amp;mask, const boost::compute::vector&lt; unsigned int &gt; &amp;keys, const boost::compute::vector&lt; unsigned int &gt; &amp;values, boost::compute::vector&lt; unsigned int &gt; &amp;resultKeys, boost::compute::vector&lt; unsigned int &gt; &amp;resultValues, boost::compute::command_queue &amp;queue)</td></tr>
+<tr class="memdesc:ga3a0345fdcaa033dc2833877975283da1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mask intersection algorithm.  <a href="group__Internal.html#ga3a0345fdcaa033dc2833877975283da1">More...</a><br /></td></tr>
+<tr class="separator:ga3a0345fdcaa033dc2833877975283da1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga5a5a65c9e2c075881d3ceb30519d3464"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__Internal.html#ga5a5a65c9e2c075881d3ceb30519d3464">spla::MaskPairKeys</a> (const boost::compute::vector&lt; unsigned int &gt; &amp;mask1, const boost::compute::vector&lt; unsigned int &gt; &amp;mask2, const boost::compute::vector&lt; unsigned int &gt; &amp;keys1, const boost::compute::vector&lt; unsigned int &gt; &amp;keys2, boost::compute::vector&lt; unsigned int &gt; &amp;resultKeys1, boost::compute::vector&lt; unsigned int &gt; &amp;resultKeys2, boost::compute::command_queue &amp;queue)</td></tr>
+<tr class="memdesc:ga5a5a65c9e2c075881d3ceb30519d3464"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mask intersection algorithm.  <a href="group__Internal.html#ga5a5a65c9e2c075881d3ceb30519d3464">More...</a><br /></td></tr>
+<tr class="separator:ga5a5a65c9e2c075881d3ceb30519d3464"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad2eb9ffa56e5ea335f15364ae65fb4b5"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__Internal.html#gad2eb9ffa56e5ea335f15364ae65fb4b5">spla::MaskByPairKeys</a> (const boost::compute::vector&lt; unsigned int &gt; &amp;mask1, const boost::compute::vector&lt; unsigned int &gt; &amp;mask2, const boost::compute::vector&lt; unsigned int &gt; &amp;keys1, const boost::compute::vector&lt; unsigned int &gt; &amp;keys2, const boost::compute::vector&lt; unsigned int &gt; &amp;values, boost::compute::vector&lt; unsigned int &gt; &amp;resultKeys1, boost::compute::vector&lt; unsigned int &gt; &amp;resultKeys2, boost::compute::vector&lt; unsigned int &gt; &amp;resultValues, boost::compute::command_queue &amp;queue)</td></tr>
+<tr class="memdesc:gad2eb9ffa56e5ea335f15364ae65fb4b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mask intersection algorithm.  <a href="group__Internal.html#gad2eb9ffa56e5ea335f15364ae65fb4b5">More...</a><br /></td></tr>
+<tr class="separator:gad2eb9ffa56e5ea335f15364ae65fb4b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Variable Documentation</h2>
-<a id="a065081a15e54d0b6d776e5f73a55f8ac"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a065081a15e54d0b6d776e5f73a55f8ac">&#9670;&nbsp;</a></span>tile_size</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">unsigned int tile_size</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
