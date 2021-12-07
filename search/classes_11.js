@@ -1,11 +1,10 @@
 var searchData=
 [
-  ['vector_554',['Vector',['../classspla_1_1Vector.html',1,'spla']]],
-  ['vectorblock_555',['VectorBlock',['../classspla_1_1VectorBlock.html',1,'spla']]],
-  ['vectorcoo_556',['VectorCOO',['../classspla_1_1VectorCOO.html',1,'spla']]],
-  ['vectordataread_557',['VectorDataRead',['../classspla_1_1VectorDataRead.html',1,'spla']]],
-  ['vectordatawrite_558',['VectorDataWrite',['../classspla_1_1VectorDataWrite.html',1,'spla']]],
-  ['vectorewiseadd_559',['VectorEWiseAdd',['../classspla_1_1VectorEWiseAdd.html',1,'spla']]],
-  ['vectorewiseaddcoo_560',['VectorEWiseAddCOO',['../classspla_1_1VectorEWiseAddCOO.html',1,'spla']]],
-  ['vectorstorage_561',['VectorStorage',['../classspla_1_1VectorStorage.html',1,'spla']]]
+  ['taskbuilder_653',['TaskBuilder',['../classspla_1_1TaskBuilder.html',1,'spla']]],
+  ['texception_654',['TException',['../classspla_1_1TException.html',1,'spla']]],
+  ['transformvalueskernel_655',['TransformValuesKernel',['../classspla_1_1detail_1_1TransformValuesKernel.html',1,'spla::detail']]],
+  ['traversalinfo_656',['TraversalInfo',['../structspla_1_1ExpressionManager_1_1TraversalInfo.html',1,'spla::ExpressionManager']]],
+  ['type_657',['Type',['../classspla_1_1Type.html',1,'spla']]],
+  ['typedobject_658',['TypedObject',['../classspla_1_1TypedObject.html',1,'spla']]],
+  ['types_659',['Types',['../classspla_1_1Types.html',1,'spla']]]
 ];
