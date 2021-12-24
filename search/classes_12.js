@@ -1,19 +1,10 @@
 var searchData=
 [
-  ['valarritem_660',['ValArrItem',['../classspla_1_1detail_1_1ValArrItem.html',1,'spla::detail']]],
-  ['valignedvalue_661',['VAlignedValue',['../classspla_1_1detail_1_1VAlignedValue.html',1,'spla::detail']]],
-  ['valvar_662',['ValVar',['../classspla_1_1detail_1_1ValVar.html',1,'spla::detail']]],
-  ['vector_663',['Vector',['../classspla_1_1Vector.html',1,'spla']]],
-  ['vectorassign_664',['VectorAssign',['../classspla_1_1VectorAssign.html',1,'spla']]],
-  ['vectorassigncoo_665',['VectorAssignCOO',['../classspla_1_1VectorAssignCOO.html',1,'spla']]],
-  ['vectorblock_666',['VectorBlock',['../classspla_1_1VectorBlock.html',1,'spla']]],
-  ['vectorcoo_667',['VectorCOO',['../classspla_1_1VectorCOO.html',1,'spla']]],
-  ['vectordataread_668',['VectorDataRead',['../classspla_1_1VectorDataRead.html',1,'spla']]],
-  ['vectordatawrite_669',['VectorDataWrite',['../classspla_1_1VectorDataWrite.html',1,'spla']]],
-  ['vectorewiseadd_670',['VectorEWiseAdd',['../classspla_1_1VectorEWiseAdd.html',1,'spla']]],
-  ['vectorewiseaddcoo_671',['VectorEWiseAddCOO',['../classspla_1_1VectorEWiseAddCOO.html',1,'spla']]],
-  ['vectorstorage_672',['VectorStorage',['../classspla_1_1VectorStorage.html',1,'spla']]],
-  ['vmultikey_673',['VMultiKey',['../classspla_1_1detail_1_1VMultiKey.html',1,'spla::detail']]],
-  ['vxm_674',['VxM',['../classspla_1_1VxM.html',1,'spla']]],
-  ['vxmcoo_675',['VxMCOO',['../classspla_1_1VxMCOO.html',1,'spla']]]
+  ['taskbuilder_850',['TaskBuilder',['../classspla_1_1TaskBuilder.html',1,'spla']]],
+  ['texception_851',['TException',['../classspla_1_1TException.html',1,'spla']]],
+  ['transformvalueskernel_852',['TransformValuesKernel',['../classspla_1_1detail_1_1TransformValuesKernel.html',1,'spla::detail']]],
+  ['traversalinfo_853',['TraversalInfo',['../structspla_1_1ExpressionManager_1_1TraversalInfo.html',1,'spla::ExpressionManager']]],
+  ['type_854',['Type',['../classspla_1_1Type.html',1,'spla']]],
+  ['typedobject_855',['TypedObject',['../classspla_1_1TypedObject.html',1,'spla']]],
+  ['types_856',['Types',['../classspla_1_1Types.html',1,'spla']]]
 ];

@@ -103,7 +103,7 @@ Public Types</h2></td></tr>
 &#160;&#160;<a class="el" href="classspla_1_1Descriptor.html#a29d3332f5a6911bc7818dfcda33ffa78ac12cb636eccffa4fd3079bf528a18e87">ValuesSorted</a>
 , <a class="el" href="classspla_1_1Descriptor.html#a29d3332f5a6911bc7818dfcda33ffa78a38b6f79794b498f72ffb7c6befb2f0dd">NoDuplicates</a>
 , <a class="el" href="classspla_1_1Descriptor.html#a29d3332f5a6911bc7818dfcda33ffa78a18c2a30f48e658c3e3501e3093f028a0">MaskComplement</a>
-, <a class="el" href="classspla_1_1Descriptor.html#a29d3332f5a6911bc7818dfcda33ffa78a04171516cbc627833c3f6d210a5cf4c0">ApplyAccum</a>
+, <a class="el" href="classspla_1_1Descriptor.html#a29d3332f5a6911bc7818dfcda33ffa78a19cc7b810c9900e79f631086e34fc363">AccumResult</a>
 , <br />
 &#160;&#160;<a class="el" href="classspla_1_1Descriptor.html#a29d3332f5a6911bc7818dfcda33ffa78a1f153cd9846bcfbac6c349c1c2def217">ProfileTime</a>
 , <a class="el" href="classspla_1_1Descriptor.html#a29d3332f5a6911bc7818dfcda33ffa78ad081831e1542e4a49fe0180da3a99458">TransposeArg1</a>
@@ -165,6 +165,9 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ae8e17f2a76f93a67b56026717a6ad980 inherit pub_methods_classspla_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9bf374cdbc8b6fd5bdfab8c41ae5ff88 inherit pub_methods_classspla_1_1Object"><td class="memItemLeft" align="right" valign="top">class <a class="el" href="classspla_1_1Library.html">Library</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classspla_1_1Object.html#a9bf374cdbc8b6fd5bdfab8c41ae5ff88">GetLibrary</a> () const</td></tr>
 <tr class="separator:a9bf374cdbc8b6fd5bdfab8c41ae5ff88 inherit pub_methods_classspla_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a64401d5a3695cc0ac3da621853377656 inherit pub_methods_classspla_1_1Object"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classspla_1_1RefPtr.html">RefPtr</a>&lt; <a class="el" href="classspla_1_1Object.html">Object</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classspla_1_1Object.html#a64401d5a3695cc0ac3da621853377656">Clone</a> () const</td></tr>
+<tr class="memdesc:a64401d5a3695cc0ac3da621853377656 inherit pub_methods_classspla_1_1Object"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create copy of this object.  <a href="classspla_1_1Object.html#a64401d5a3695cc0ac3da621853377656">More...</a><br /></td></tr>
+<tr class="separator:a64401d5a3695cc0ac3da621853377656 inherit pub_methods_classspla_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classspla_1_1RefCnt"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classspla_1_1RefCnt')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classspla_1_1RefCnt.html">spla::RefCnt</a></td></tr>
 <tr class="memitem:a28790819c35f5cae6df7ce59b56c6ea5 inherit pub_methods_classspla_1_1RefCnt"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classspla_1_1RefCnt.html#a28790819c35f5cae6df7ce59b56c6ea5">~RefCnt</a> ()</td></tr>
 <tr class="separator:a28790819c35f5cae6df7ce59b56c6ea5 inherit pub_methods_classspla_1_1RefCnt"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -212,7 +215,7 @@ Static Public Member Functions</h2></td></tr>
 </td></tr>
 <tr><td class="fieldname"><a id="a29d3332f5a6911bc7818dfcda33ffa78a18c2a30f48e658c3e3501e3093f028a0"></a>MaskComplement&#160;</td><td class="fielddoc"><p>Apply !mask (complementary mask) to result or input arguments </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a29d3332f5a6911bc7818dfcda33ffa78a04171516cbc627833c3f6d210a5cf4c0"></a>ApplyAccum&#160;</td><td class="fielddoc"><p>Apply binary op accum to output and temporary operation result </p>
+<tr><td class="fieldname"><a id="a29d3332f5a6911bc7818dfcda33ffa78a19cc7b810c9900e79f631086e34fc363"></a>AccumResult&#160;</td><td class="fielddoc"><p>Apply default or provided binary op accum to output and temporary operation result </p>
 </td></tr>
 <tr><td class="fieldname"><a id="a29d3332f5a6911bc7818dfcda33ffa78a1f153cd9846bcfbac6c349c1c2def217"></a>ProfileTime&#160;</td><td class="fielddoc"><p>Profiles time of the operation and outputs result to the log </p>
 </td></tr>
